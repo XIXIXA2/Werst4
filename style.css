@@ -1,0 +1,751 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oswald;
+}
+.WallpaperBean_1_Header {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./img/Bg_B1_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WrapNav {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.LogoName {
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.Logo {
+    width: 50%;
+    height: 10vh;
+    background-image: url(./img/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Name {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name p {
+    color: black;
+    font-size: 3em;
+}
+
+.NavTxt {
+    width: 100%;
+    height: 10vh;
+}
+
+.NavTxt ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5%;
+    list-style-type: none;
+    padding-right: 5%;
+}
+
+.NavTxt a {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+    transition: 0.5s;
+}
+
+.NavTxt li:hover {
+    text-decoration: underline orange;
+    color: orange;
+}
+
+.Bean_1 {
+    display: flex;
+}
+
+.LeftSide {
+    width: 50%;
+    padding: 0 5%;
+}
+
+.RightSide {
+    width: 50%;
+    background-image: url(./img/Image_Bean_1_1.png);
+    background-size: cover;
+    background-position: center;
+    background-size: 75%;
+}
+
+.HeadNaming p {
+    padding-left: 30%;
+    font-size: 2.5em;
+}
+.SecondNamig {
+    display: flex;
+}
+.SecondNamig p {
+    font-size: 2em;
+}
+
+.ImgStick {
+    width: 7%;
+    height: 5vh;
+    background-image: url(./img/Stick.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10vh;
+    margin: 0 1% 1.5% 29%;
+}
+
+.DownNaming {
+    width: 70%;
+    display: flex;
+    padding-left: 30%;
+}
+
+.DownNaming p {
+    font-size: 1.5em;
+}
+
+.BtnBean {
+    display: flex;
+    padding-left: 30%;
+}
+
+.BtnBean button {
+    width: 23%;
+    height: 5vh;
+    color: white;
+    background-color: orange;
+    border-radius: 5vh;
+    font-size: 1.2em;
+    border: none;
+    transition: 1s;
+}
+
+.BtnBean button:hover {
+    border: 2px solid black;
+    background-color: rgba(255, 244, 227, 0);
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Logo {
+        height: 15vh;
+    }
+    header {
+        height: 25vh;
+    }
+    .Name p {
+        font-size: 2em;
+    }
+    .NavTxt a {
+        font-size: 1.5em;
+    }
+    .HeadNaming p {
+        padding-left: 20%;
+        font-size: 2em;
+    }
+    .SecondNamig p {
+        font-size: 1.8em;
+    }
+    .DownNaming {
+        width: 90%;
+        padding-left: 20%;
+    }
+    .DownNaming p {
+        font-size: 1.2em;
+    }
+    .BtnBean {
+        padding-left: 20%;
+    }
+    .ImgStick {
+        width: 16%;
+    }
+    .NavTxt ul {
+        width: 100%;
+    }
+    .LogoName {
+        width: 30%;
+    }
+    .NavTxt {
+        width: 80%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .SecondNamig {
+        width: 70%;
+    }
+    .BtnBean button {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .NavTxt {
+        width: 100%;
+    }
+    .WrapNav {
+        flex-direction: column;
+        align-items: center;
+        height: 20vh;
+        gap: 8%;
+    }
+    .LogoName {
+        width: 100%;
+        justify-content: center;
+    }
+    .Name p {
+        font-size: 2em;
+    }
+    .NavTxt ul {
+        justify-content: center;
+        gap: 2%;
+    }
+    .NavTxt a {
+        font-size: 1.2em;
+    }
+    .Bean_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .LeftSide, .RightSide {
+        width: 90%;
+    }
+    .HeadNaming p {
+        padding-left: 0;
+        text-align: center;
+        font-size: 2em;
+    }
+    .SecondNamig {
+        justify-content: center;
+        width: 100%;
+    }
+    .SecondNamig p {
+        font-size: 1.5em;
+    }
+    .ImgStick {
+        margin: 0 1% 1.5% 0;
+        width: 15%;
+        height: 4vh;
+    }
+    .DownNaming {
+        padding-top: 5%;
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .DownNaming p {
+        font-size: 1em;
+    }
+    .BtnBean {
+        padding-top: 10%;
+        padding-left: 0;
+        justify-content: center;
+    }
+    .BtnBean button {
+        width: 60%;
+    }
+}
+.container_1 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background-image: url(./img/Bg_B2_2.png);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap; 
+}
+
+.LeftSideContainer_1, .RightSideContainer_1 {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImgInLeftSideContainer_1 {
+    width: 70%;
+    height: 60vh;
+    background-image: url(./img/2_Sashimi.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.RightSideContainer_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+}
+
+.HeaderNamingInRightSideContainer_1 {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.HeaderNamingInRightSideContainer_1 p {
+    color: orange;
+    font-size: 1.5em;
+}
+
+.MidleNamingInRightSideContainer_1 {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.MidleNamingInRightSideContainer_1 p {
+    color: black;
+    font-size: 2.5em;
+}
+
+.ImgStick2 {
+    width: 6%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(./img/Stick.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10vh;
+}
+
+.UnderNamingInRightSideContainer_1 {
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.UnderNamingInRightSideContainer_1 p {
+    width: 50%;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container_1 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .LeftSideContainer_1, .RightSideContainer_1 {
+        width: 100%;
+        height: auto;
+    }
+    .RightSideContainer_1  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ImgInLeftSideContainer_1 {
+        width: 40%;
+        height: 50vh;
+        background-position: center;
+        background-size: cover
+    }
+
+    .HeaderNamingInRightSideContainer_1 p {
+        font-size: 4em;
+        padding-left: 40%;
+    }
+
+    .MidleNamingInRightSideContainer_1 p {
+        font-size: 2em;
+        padding-left: 40%;
+    }
+
+    .UnderNamingInRightSideContainer_1 p {
+        width: 75%;
+        font-size: 1.2em;
+        padding-left: 31%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container_1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .LeftSideContainer_1, .RightSideContainer_1 {
+        width: 100%;
+        height: auto;
+    }
+    .RightSideContainer_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .HeaderNamingInRightSideContainer_1  p{
+      padding-left: 30%;
+     
+    }
+    .ImgInLeftSideContainer_1 {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .HeaderNamingInRightSideContainer_1 p {
+        font-size: 2em;
+    }
+
+    .MidleNamingInRightSideContainer_1 p {
+        font-size: 1.8em;
+        line-height: 1.2;
+        padding-left: 20%;
+    }
+
+    .ImgStick2 {
+        width: 20%;
+        height: 38%;
+    }
+
+    .UnderNamingInRightSideContainer_1 p {
+        width: 90%;
+        font-size: 1em;
+        padding-left: 10%;
+    }
+}.container_2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: column;
+    background-image: url(./img/Bg_B2_3.png);
+    background-size: cover;
+    background-position: center;
+}
+.HeadNamngINContainer2 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeadNamngINContainer2 p {
+    color: orange;
+    font-size: 3em;
+}
+.HeadLineItems {
+    width: 90%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.SecondLineItems {
+    width: 90%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.Item_1 {
+    width: 20%;
+    height: 30vh;
+    background-image: url(./img/Item_1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3vh;
+}
+.Item_2 {
+    width: 20%;
+    height: 30vh;
+    background-image: url(./img/Item2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3vh;
+}
+.Item_3 {
+    width: 20%;
+    height: 30vh;
+    background-image: url(./img/Item_3.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3vh;
+}
+.Item_4 {
+    width: 20%;
+    height: 30vh;
+    background-image: url(./img/Item_4.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3vh;
+}
+.Item_5 {
+    width: 20%;
+    height: 30vh;
+    background-image: url(./img/Item_5.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3vh;
+}
+.Item_6 {
+    width: 20%;
+    height: 30vh;
+    background-image: url(./img/Item_6.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3vh;
+}
+.Item_7 {
+    width: 20%;
+    height: 30vh;
+    background-image: url(./img/Item_7.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3vh;
+}
+.Item_8 {
+    width: 20%;
+    height: 30vh;
+    background-image: url(./img/Item_8.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3vh;
+}
+.ImgInItem_1 {
+    width: 100%;
+    height: 20vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3vh;
+}
+.HeadNamingInContainer_1 {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.400);
+}
+.HeadNamingInContainer_1 p {
+    color: orange;
+    font-size: 1.5em;
+}
+.UnderNamingInContainer_1 {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.400);
+}
+.UnderNamingInContainer_1 button{
+    border: none;
+    width: 30%;
+    height: 4vh;
+    font-size: 1.5em;
+    border-radius: 3vh;
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+.UnderNamingInContainer_1 button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid orange;
+    color: orange;
+}
+@media only screen and (max-width: 768px) {
+    .container_2 {
+        height: 350vh;
+        gap: 5%;
+    }
+    .HeadLineItems {
+        flex-direction: column;
+        padding-bottom: 98vh;
+    }   
+    .HeadNamngINContainer2 p{
+        transform: translate(0vh,-80vh);
+        font-size: 3em;
+    }
+    .SecondLineItems {
+        flex-direction: column;
+    }
+    .Item_1,.Item_2,.Item_3,.Item_4,.Item_5,.Item_6,.Item_7,.Item_8 {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    .Item_1 {
+        transform: translate(0vh,-30vh);
+    }
+    .Item_2 {
+        transform: translate(0vh,-20vh);
+    }
+    .Item_3 {
+        transform: translate(0vh,-10vh);
+    }
+    .Item_4 {
+        transform: translate(0vh,-3vh);
+    }
+    .Item_6 {
+        transform: translate(0vh,10vh);
+    }
+    .Item_7 {
+        transform: translate(0vh,20vh);
+    }
+    .Item_8 {
+        transform: translate(0vh,30vh);
+    }
+    .UnderNamingInContainer_1 button {
+        width: 50%;
+        height: 4vh;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .Item_1,.Item_2,.Item_3,.Item_4,.Item_5,.Item_6,.Item_7,.Item_8 {
+        width: 90%;
+    }
+    .UnderNamingInContainer_1 button {
+        width: 50%;
+        height: 4vh;
+    }
+    .HeadLineItems {
+        width: 95%;
+    }
+    .SecondLineItems {
+        width: 95%;
+    }
+}
+.container3 {
+    width: 100%;
+    height: 65vh;
+    background-image: url(./img/Bg_B2_4.png);
+    background-position: center;
+    background-size: cover;
+}
+.HeadNamingInFooter {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeadNamingInFooter p {
+    color: orange;
+    font-size: 3em;
+}
+.WrapContainer3 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LeftSideInContainer3 {
+    width: 45%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RightSideInContainer3 {
+    width: 45%;
+    height: 40vh;
+}
+.HeadNamingInRightSideInContainer3 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeadNamingInRightSideInContainer3 p {
+    color: orange;
+    font-size: 3em;
+}
+.UnderNamingInRightSideInContainer3 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UnderNamingInRightSideInContainer3 p {
+    font-size: 1.5em;
+    width: 50%;
+    text-align: center;
+}
+.LeftSideInContainer3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+.LeftSideInContainer3 ul {
+    list-style-type: none;
+}
+.LeftSideInContainer3 svg {
+    color: orange;
+}
+@media only screen and (max-width: 768px) {
+    .container3 {
+        height: 70vh;
+        width: 100%;
+    }
+    .WrapContainer3  {
+        flex-direction: column;
+    }
+    .RightSideInContainer3 {
+        width: 100%;
+    }
+    .UnderNamingInRightSideInContainer3 p {
+        font-size: 1em;
+        width: 100%;
+        text-align: none;
+        transform:translate(0%,-25vh)
+    }
+    .HeadNamingInRightSideInContainer3 {
+        width: 100%;
+    }
+    .HeadNamingInRightSideInContainer3 p {
+        transform:translate(0%,-20vh) ;
+        font-size: 2em;
+    }
+    .LeftSideInContainer3 {
+        transform: translate(10%,40vh);
+    }
+    .LeftSideInContainer3 p {
+        font-size: 1em;
+        line-height: 1em;
+    }
+}
+@media only screen and (max-width: 1000px)  {
+    .UnderNamingInRightSideInContainer3 p {
+        font-size: 1.2em;
+    }
+}
